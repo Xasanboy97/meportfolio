@@ -261,6 +261,7 @@ header {
     background: url(../image/remont-ofisov.jpg) no-repeat center;
     background-attachment: fixed;
     min-height: 100vh;
+    background-size: cover;
 }
 
 header h1 {

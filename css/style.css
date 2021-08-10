@@ -788,7 +788,7 @@ main .content .svg-wrap .fav {
 }
 
 
-.contact .btnn button {
+.contact .btnn a {
     padding: 5px 25px;
     font-size: 20px;
     background: #feb633;
@@ -803,7 +803,7 @@ main .content .svg-wrap .fav {
     transition: all 0.5s ease-out;
 }
 
-.contact .btnn button:hover {
+.contact .btnn a:hover {
     background-position: right center;
 }
 
@@ -1225,7 +1225,7 @@ footer a:hover {
     .section-Portfolio .portfolio_link-img{
         height: 100%;
     }
-    .contact .btnn button {
+    .contact .btnn a {
         margin-bottom: 20px;
     }
     .map.round{
@@ -1281,7 +1281,7 @@ footer a:hover {
         font-size: 22px;
     }
 
-    .contact .btnn button {
+    .contact .btnn a {
         margin-bottom: 20px;
     }
 

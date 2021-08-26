@@ -73,11 +73,17 @@ $(document).ready(function () {
 })
 
 // navigation menu
-$('.header__nav-button').click(function () {
+$('.header__nav-button').click(function (e) {
     $(this).toggleClass("menu--active");
     $(".navigation-menuu").toggleClass("active");
 
 });
+document.addEventListener('click', (e) =>{
+    if (e.target.id !== 'navBtn' && e.target.id !== 'nav') {
+        $(".header__nav-button").removeClass("menu--active");
+        $(".navigation-menuu").removeClass("active");
+      }
+})
 
 
 $(window).scroll(function () {

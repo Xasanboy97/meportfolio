@@ -1189,6 +1189,9 @@ footer a:hover {
     .About .kub {
         display: none;
     }
+    .About .about_img{
+        margin: 20px auto;
+    }
 
     .aboou {
         display: flex;

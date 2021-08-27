@@ -788,7 +788,7 @@ main .content .svg-wrap .fav {
 }
 
 
-.contact .btnn a {
+.contact .btnn button {
     padding: 5px 25px;
     font-size: 20px;
     background: #feb633;
@@ -804,7 +804,7 @@ main .content .svg-wrap .fav {
     transition: all 0.5s ease-out;
 }
 
-.contact .btnn a:hover {
+.contact .btnn button:hover {
     background-position: right center;
 }
 

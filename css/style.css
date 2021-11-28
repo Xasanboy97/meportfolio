@@ -29,6 +29,7 @@
 }
 ::selection{
  background:#feb633;
+    color: white;
 }
 .darkmode {
     --Day-background: var(--Night_background);

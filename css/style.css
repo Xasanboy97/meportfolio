@@ -27,7 +27,9 @@
     --clr-dark: #00332a;
     --clr-secondary: #c3fcf2;
 }
-
+::selection{
+ background:#feb633;
+}
 .darkmode {
     --Day-background: var(--Night_background);
     --Day-background_2: var(--Night_background);
